@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+</head>
+
+<body>
+  <h1>Contact Information</h1>
+  <h2>Address</h2>
+  <p>659 N El Dorado Blvd</p>
+  <p>Ogden, UT 99254</p>
+  <h2>Phone</h2>
+  <p>(604) 999-8888</p>
+  <h2>Email</h2>
+  <p>myemail</p>
+  <hr>
+  <h2>Contact me:</h2>
+  <form action="/action_page.php" method="get">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="notes">Misc Notes:</label>
+    <textarea id="notes" name="notes" rows="4" cols="50">
+    A text box for entering misc notes.
+    </textarea>
+    <h3>Check all that apply:</h3>
+    <input type="checkbox" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br><br>
+    <input type="checkbox" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br><br>
+    <input type="checkbox" name="vehicle3" value="Boat" checked>
+    <label for="vehicle3"> I have a boat</label><br><br>
+    <h3>Pick one:</h3>
+
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label><br><br>
+
+
+    <input type="date" name="tdate" value="Today">
+
+<br><br>
+    <input type="submit" value="Submit">
+    <hr>
+  <label for="fname">File Name</label><br>
+<input type="file" name="fname" value="htmlnotes">
+
+
+  </form>
+
+
+
+
+</body>
+
+</html>
